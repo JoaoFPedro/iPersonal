@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import styles from './styles';
 
 
 const Button: React.FC<React.PropsWithChildren> = ({children}) => {
@@ -11,22 +12,5 @@ const Button: React.FC<React.PropsWithChildren> = ({children}) => {
      );
 }
  
-const styles = StyleSheet.create({
-    button: {
-      alignItems: 'center',
-      justifyContent: 'center',
-      backgroundColor: '#007AFF',
-      borderRadius: 50,
-      width: 80,
-      height: 80,
-      margin: 10,
-    },
-    icon: {
-      marginBottom: 5,
-    },
-    buttonText: {
-      color: '#fff',
-      fontSize: 12,
-    },
-  });
+
 export default Button;
