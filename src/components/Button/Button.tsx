@@ -13,7 +13,6 @@ const Button: React.FC<React.PropsWithChildren> = ({children}) => {
  
 const styles = StyleSheet.create({
     button: {
-      flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
       backgroundColor: '#007AFF',
