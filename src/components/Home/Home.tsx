@@ -1,10 +1,15 @@
-import { Text } from "react-native";
+
+import WelcomePage from "../../pages/WelcomePage/WelcomePage";
 import Header from "../Header/Header";
+import { StyleSheet, Text, View } from 'react-native';
 
 const Home = () => {
     return (
-        <Header/>
+        <View >
+        <Header />
+        <WelcomePage/>
+        </View>
       );
 }
- 
+
 export default Home;
